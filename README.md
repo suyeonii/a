@@ -1,8 +1,26 @@
- ## TIL
+java 1.8 ´Ù¿î·Îµå ¿À¶óÅ¬; tallvoy@naver.com / Wlqskrk1
+ÄÄÇ»ÅÍ ¼Ó¼º-°í±Ş ½Ã½ºÅÛ ¼³Á¤-È¯°æº¯¼ö-½Ã½ºÅÛº¯¼ö
+1.»õ·Î¸¸µé±â JAVA_HOME º¯¼ö°ª¿¡ ÀÚ¹Ù ´Ù¿î·Îµå À§Ä¡ ÀÔ·Â
+2.PATHÆíÁı common µÚ¿¡ ;%JAVA_HOME%\bin ÀÔ·Â
+3.cmdÃ¢¿¡¼­ javac -version À¸·Î ¼³Ä¡ È®ÀÎ
 
-Today I learned.
 
-### ë¹…ë°ì´í„°ë¥¼ í™œìš©í•œ ìŠ¤ë§ˆíŠ¸ë°ì´í„° ì „ë¬¸ê°€ ì–‘ì„±ê³¼ì •
+ÀÌÁ¨ÆäÀÌÁö °­»çÅ¬·´¿¡ °­ÀÇÀÚ·á
+**°úÁ¦:ºòµ¥ÀÌÅÍ Ã¥ ÀĞ°í ·¹Æ÷Æ® ¾²±â
+ 
+git ¼³Ä¡ use windows' default console window·Î Ã¼Å©
+TIL new repository »ı¼º
 
-ëŒ€ì „ [ì´ì  ì»´í“¨í„°í•™ì›](http://dj.ezenac.co.kr/)ì—ì„œ ê°•ì˜ê°€ ì§„í–‰ì¤‘ì…ë‹ˆë‹¤.
-(2019.05 ~ 2019.11)
+
+git add. .ÀÇ ÀÇ¹Ì´Â current directory
+..ÀÇ ÀÇ¹Ì´Â »óÀ§ µğ·ºÅä¸®
+
+github tallvoy@naver.com / fdfdfdfd18
+
+
+d:
+cd\workspace\TIL
+git init
+file ¸¸µé±â 
+gid add . 
+git commit

@@ -1,0 +1,72 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. All rights reserved.
+
+C:\Users\1pc>git --version
+git version 2.21.0.windows.1
+
+C:\Users\1pc>git config --global user.name "Suyeonii"
+
+C:\Users\1pc>git config --global user.email tallvoy@naver.com
+
+C:\Users\1pc>d:
+
+D:\>mkdir Workspace
+하위 디렉터리 또는 파일 Workspace이(가) 이미 있습니다.
+
+D:\>mkdir Workspace
+하위 디렉터리 또는 파일 Workspace이(가) 이미 있습니다.
+
+D:\>cd workspace
+
+D:\Workspace>mkdir TIL
+
+D:\Workspace>cd TIL
+
+D:\Workspace\TIL>git init
+Initialized empty Git repository in D:/Workspace/TIL/.git/
+
+D:\Workspace\TIL>git add .
+
+D:\Workspace\TIL>git commit -m "first commit"
+[master (root-commit) 2658f15] first commit
+ 1 file changed, 14 insertions(+)
+ create mode 100644 190527_TIL.txt
+
+D:\Workspace\TIL>git remote add origin https://github.com/suyeonii/TIL.git
+
+D:\Workspace\TIL>git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': tallvoy@naver.com
+Password for 'https://tallvoy@naver.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/suyeonii/TIL.git/'
+
+D:\Workspace\TIL>
+D:\Workspace\TIL>git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': tallvoy@naver.com
+Password for 'https://tallvoy@naver.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/suyeonii/TIL.git/'
+
+D:\Workspace\TIL>
+D:\Workspace\TIL>
+D:\Workspace\TIL>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 572 bytes | 572.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/suyeonii/TIL.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+D:\Workspace\TIL>git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+D:\Workspace\TIL>git push
+Everything up-to-date
+
+D:\Workspace\TIL>
