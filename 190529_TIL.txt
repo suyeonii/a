@@ -1,0 +1,37 @@
+R, R스튜디오, Java 다운로드
+
+*R 다운로드
+http://R-project.org에 접속해서
+korea사이트 경로 후 R 3.6.0 windows버전 다운로드
+32비트 체크해제 후 설치
+
+*R 스튜디오 다운로드
+http://www.rstudio.com에 접속해서
+r studio desktop free version windows 7+ 버전 설치
+
+
+d2coding 글꼴 설치
+D2Coding-Ver1.3.2-20180524.zip 다운로드
+d2codingall 글꼴 설치
+
+R스튜디오 툴-글로벌옵션-코드-세이빙-체인지-UTF8로 적용
+EUC-KR ANSI한글이 깨질 수 있어성?ㅜ
+어피어런스-에디터 폰트-디투코딩
+
+
+교재 Part3 294P부터~
+R스튜디오로 돌아와서 new project
+setwd("d:/workspace/TIL/R_Data_Analysis/Part3/data"):괄호속 폴더로 데이타 저장
+(인터프렛 방식:명령을 한줄씩 읽고 실행 읽고 실행 반복:스크립트)
+enter가 아니라 run 버튼을 눌러야 실행 됨. Run=Control+Enter
+getwd 디렉토리가 어딘지 찾는 명령어
+여러개를 나타내려면 cat명령어를 쓴다
+숫자 여러개를 프린트하려면 세미콜론을 사용한다 
+
+
+
+
+
+
+
+

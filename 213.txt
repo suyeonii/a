@@ -1,0 +1,8 @@
+d:
+cd\workspace\TIL
+git add 颇老疙
+git remote add origin ~~~努沸林家
+git push -u origin master
+git pull
+
+git clone  repositories 林家
